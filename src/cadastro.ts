@@ -14,7 +14,7 @@ interface Login {
 }
 
 class CadastroServer {
-    execute({name, email, Telefone, messagem}:Login){
+    execute({name, email, Telefone, messagem = "campo vasio"}:Login){
         console.log(name, email, Telefone, messagem);
     }
 }
