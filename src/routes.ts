@@ -11,5 +11,12 @@ export function cadastrosUser(request: Request, response: Response) {
         messagem: "isso é um teste"
     })
 
+    CadastroServer.execute({
+        name: "Mariana", 
+        email: "Mariana@MediaList.com", 
+        Telefone: 62900000000, 
+       
+    })
+
     return response.send()
 }
